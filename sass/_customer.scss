@@ -92,55 +92,55 @@
 }
 /* slick-slider */
 .slick-track {
-  display: flex;
-  gap: 0 30px;
-  margin-left: -10px;
+display: flex;
+gap: 0 30px;
+margin-left: -10px;
 }
 .slick-dots { /* css cục slick */
-  display: flex;
-  align-items: center;
-  gap: 0 15px;
-  list-style-type: none;
-  position: absolute;
-  bottom: 0;
-  left: 15px;
-  button {
-    width: 15px;
-    height: 15px;
-    background-color: #dde0e4;
-    border-radius: 100rem;
-    font-size: 0;
-    outline: none;
-    transition: all 0.25s linear;
-  }
+display: flex;
+align-items: center;
+gap: 0 15px;
+list-style-type: none;
+position: absolute;
+bottom: 0;
+left: 15px;
+button {
+  width: 15px;
+  height: 15px;
+  background-color: #dde0e4;
+  border-radius: 100rem;
+  font-size: 0;
+  outline: none;
+  transition: all 0.25s linear;
+}
 }
 .slick-active { /* css cục slick khi được chọn */
-  button {
-    width: 45px;
-    height: 15px;
-    background-color: $red-color;
-    border-radius: 2rem;
-  }
+button {
+  width: 45px;
+  height: 15px;
+  background-color: $red-color;
+  border-radius: 2rem;
+}
 }
 .slick-prev, /* css arrow */
 .slick-next {
-  width: 6rem;
-  height: 6rem;
-  border-radius: 100rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  position: absolute;
-  bottom: 0;
-  transform: translateY(50%);
-  z-index: 10;
+width: 6rem;
+height: 6rem;
+border-radius: 100rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+flex-direction: row;
+position: absolute;
+bottom: 0;
+transform: translateY(50%);
+z-index: 10;
 }
 .slick-prev {
   border: 2px solid $red-color;
   background-color: transparent;
-  right: 8rem;
+  left: 8rem;
 }
 .slick-next {
   background-color: $red-color;
